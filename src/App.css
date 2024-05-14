@@ -1,0 +1,22 @@
+.container{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 200px;
+    height: 50vh;
+    border-radius: 8px;
+    border: solid 4px cornflowerblue;
+}
+
+.list{
+    width: 50%;
+    height: 20vh;
+    overflow: auto;
+    border-radius: 8px;
+    border: solid 4px cornflowerblue;
+    scrollbar-color: cornflowerblue rgb(255, 255, 255);
+    scrollbar-width: thin;
+}
